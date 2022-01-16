@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA763551279378DE0090E1E6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA763550279378DE0090E1E6 /* Network.swift */; };
 		BAE0A775279308BE00F71671 /* ClientMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE0A774279308BE00F71671 /* ClientMobileApp.swift */; };
 		BAE0A777279308BE00F71671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE0A776279308BE00F71671 /* ContentView.swift */; };
 		BAE0A779279308BE00F71671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE0A778279308BE00F71671 /* Assets.xcassets */; };
 		BAE0A77C279308BE00F71671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE0A77B279308BE00F71671 /* Preview Assets.xcassets */; };
+		BAE0A783279309C200F71671 /* posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE0A782279309C200F71671 /* posts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA763550279378DE0090E1E6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		BAE0A771279308BE00F71671 /* ClientMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClientMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE0A774279308BE00F71671 /* ClientMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMobileApp.swift; sourceTree = "<group>"; };
 		BAE0A776279308BE00F71671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAE0A778279308BE00F71671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE0A77B279308BE00F71671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAE0A782279309C200F71671 /* posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = posts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				BAE0A776279308BE00F71671 /* ContentView.swift */,
 				BAE0A778279308BE00F71671 /* Assets.xcassets */,
 				BAE0A77A279308BE00F71671 /* Preview Content */,
+				BAE0A782279309C200F71671 /* posts.swift */,
+				BA763550279378DE0090E1E6 /* Network.swift */,
 			);
 			path = ClientMobile;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				BAE0A777279308BE00F71671 /* ContentView.swift in Sources */,
 				BAE0A775279308BE00F71671 /* ClientMobileApp.swift in Sources */,
+				BA763551279378DE0090E1E6 /* Network.swift in Sources */,
+				BAE0A783279309C200F71671 /* posts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
